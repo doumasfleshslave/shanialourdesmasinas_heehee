@@ -72,15 +72,12 @@ box-shadow:0 0 25px #00e5ff;
 
 <h1>4th Quarter Events</h1>
 
-<iframe width="425" height="250"
-src="https://youtu.be/ElN_4vUvTPs?si=E5Yy-zffZlHDY3Q8"
-title="Human Nature"
-frameborder="0"
-allowfullscreen>
-</iframe>
 
-</header>
-
+<a href="https://youtu.be/ElN_4vUvTPs" target="_blank">
+  <img src="https://img.youtube.com/vi/ElN_4vUvTPs/0.jpg" 
+       alt="Human Nature Video" 
+       width="425" height="250">
+</a>
 
 <div class="event">
 
@@ -88,8 +85,8 @@ allowfullscreen>
 
 <div class="gallery">
 
-<img src="images/miting1.jpg">
-<img src="images/miting2.jpg">
+<img src="miting1.jpg">
+<img src="miting2.jpg">
 
 </div>
 
@@ -102,8 +99,8 @@ allowfullscreen>
 
 <div class="gallery">
 
-<img src="images/streetdance1.jpg">
-<img src="images/streetdance2.jpg">
+<img src="streetdance1.jpg">
+<img src="streetdance2.jpg">
 
 </div>
 
@@ -116,8 +113,8 @@ allowfullscreen>
 
 <div class="gallery">
 
-<img src="images/botb1.jpg">
-<img src="images/botb2.jpg">
+<img src="botb1.jpg">
+<img src="botb2.jpg">
 
 </div>
 
