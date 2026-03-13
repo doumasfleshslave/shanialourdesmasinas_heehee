@@ -72,12 +72,11 @@ box-shadow:0 0 25px #00e5ff;
 
 <h1>3rd Quarter Events</h1>
 
-<iframe width="425" height="250"
-src="https://youtu.be/ElN_4vUvTPs?si=E5Yy-zffZlHDY3Q8"
-title="Human Nature"
-frameborder="0"
-allowfullscreen>
-</iframe>
+<a href="https://youtu.be/ElN_4vUvTPs" target="_blank">
+  <img src="https://img.youtube.com/vi/ElN_4vUvTPs/0.jpg" 
+       alt="Human Nature Video" 
+       width="425" height="250">
+</a>
 
 </header>
 
@@ -88,8 +87,8 @@ allowfullscreen>
 
 <div class="gallery">
 
-<img src="images/mvp1.jpg">
-<img src="images/mvp2.jpg">
+<img src="mvp1.jpg">
+<img src="mvp2.jpg">
 
 </div>
 
@@ -102,8 +101,8 @@ allowfullscreen>
 
 <div class="gallery">
 
-<img src="images/booklandia1.jpg">
-<img src="images/booklandia2.jpg">
+<img src="booklandia1.jpg">
+<img src="booklandia2.jpg">
 
 </div>
 
@@ -116,8 +115,8 @@ allowfullscreen>
 
 <div class="gallery">
 
-<img src="images/mathidol1.jpg">
-<img src="images/mathidol2.jpg">
+<img src="mathidol1.jpg">
+<img src="mathidol2.jpg">
 
 </div>
 
