@@ -48,29 +48,27 @@ transform:scale(1.08);
 <header>
 
 <h1>3rd Quarter Browser Outputs</h1>
-
-<iframe width="425" height="250"
-src="https://youtu.be/XY6fbugcisY?si=otRMCx1i_L_P1zHF"
-title="In The Closet"
-frameborder="0"
-allowfullscreen>
-</iframe>
+<a href="https://youtu.be/XY6fbugcisY" target="_blank">
+  <img src="https://img.youtube.com/vi/XY6fbugcisY/0.jpg" 
+       alt="In The Closet Video" 
+       width="425" height="250">
+</a>
 
 </header>
 
 <div class="output">
 <h3>Browser Output 1</h3>
-<img src="images/browser1.png">
+<img src="browser1.png">
 </div>
 
 <div class="output">
 <h3>Browser Output 2</h3>
-<img src="images/browser2.png">
+<img src="browser2.png">
 </div>
 
 <div class="output">
 <h3>Browser Output 3</h3>
-<img src="images/browser3.png">
+<img src="browser3.png">
 </div>
 
 </body>
