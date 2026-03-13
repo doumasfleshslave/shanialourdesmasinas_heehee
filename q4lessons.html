@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>ICT 4th Quarter</title>
+
+<style>
+
+body{
+background:#1a0026;
+color:white;
+font-family:Arial;
+line-height:1.6;
+margin:0;
+animation:backgroundpulse 6s infinite alternate;
+}
+
+header{
+background:#660099;
+text-align:center;
+padding:30px;
+box-shadow:0 0 25px #ff33cc;
+}
+
+h1,h2,h3{
+color:#ff99ff;
+}
+
+.lesson{
+background:#33004d;
+margin:40px;
+padding:25px;
+border-radius:12px;
+box-shadow:0 0 20px #ff33cc;
+transition:0.3s;
+}
+
+.lesson:hover{
+transform:translateY(-8px) scale(1.02);
+box-shadow:0 0 35px #ff66cc;
+animation:bounce 0.5s;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:15px;
+}
+
+th,td{
+border:1px solid #ff66cc;
+padding:8px;
+text-align:left;
+}
+
+th{
+background:#660099;
+}
+
+code{
+background:black;
+padding:8px;
+display:block;
+margin-top:10px;
+white-space:pre-wrap;
+}
+
+ul{
+margin-left:20px;
+}
+
+@keyframes bounce{
+
+0%{transform:translateY(0);}
+30%{transform:translateY(-10px);}
+60%{transform:translateY(5px);}
+100%{transform:translateY(0);}
+
+}
+
+@keyframes backgroundpulse{
+
+from{background:#1a0026;}
+to{background:#2a003f;}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>4th Quarter Lesson Compilation</h1>
+
+<iframe width="425" height="250"
+src="https://youtu.be/hfq2ECXlgqw?si=Qptl0tr0rlu22VU_"
+title="Leave Me Alone"
+frameborder="0"
+allowfullscreen>
+</iframe>
+
+</header>
+
+
+<div class="lesson">
+
+<h2>LESSON 1: EVENTS & POP-UP BOXES</h2>
+
+<h3>Events</h3>
+
+<ul>
+<li>Actions that are triggered either by mouse clicks, function calls, keyboard strokes, loading of images, submitting an HTML form, etc.</li>
+<li>Usually used in connections with functions</li>
+</ul>
+
+<h3>Event Handlers</h3>
+
+<ul>
+<li>They help call functions at the right time, ensuring they function properly and respond to the page's events.</li>
+</ul>
+
+<h3>Event Triggers</h3>
+
+<table>
+
+<tr>
+<th>Attribute</th>
+<th>Description</th>
+</tr>
+
+<tr><td>onabort</td><td>The loading of an event is interrupted</td></tr>
+<tr><td>onblur</td><td>An element loses focus</td></tr>
+<tr><td>onchange</td><td>The user changes the content of a field</td></tr>
+<tr><td>onclick</td><td>Mouse click of an object</td></tr>
+<tr><td>ondblclick</td><td>Double mouse click of an object</td></tr>
+<tr><td>onerror</td><td>An error occurs when loading a document or image</td></tr>
+<tr><td>onfocus</td><td>An element gets focus</td></tr>
+<tr><td>onkeydown</td><td>A keyboard key is pressed</td></tr>
+<tr><td>onkeypress</td><td>A keyboard key is held down</td></tr>
+<tr><td>onkeyup</td><td>A keyboard key is released</td></tr>
+<tr><td>onload</td><td>A page or image is finished loading</td></tr>
+<tr><td>onmousedown</td><td>A mouse button is pressed</td></tr>
+<tr><td>onmousemove</td><td>The mouse is moved</td></tr>
+<tr><td>onmouseout</td><td>The mouse is moved off an element</td></tr>
+<tr><td>onmouseover</td><td>The mouse is moved over an element</td></tr>
+<tr><td>onmouseup</td><td>A mouse button is released</td></tr>
+<tr><td>onreset</td><td>The reset button is clicked</td></tr>
+<tr><td>onresize</td><td>A window or frame is resized</td></tr>
+<tr><td>onselect</td><td>Text is selected</td></tr>
+<tr><td>onsubmit</td><td>The submit button is clicked</td></tr>
+<tr><td>onunload</td><td>The user exits the page</td></tr>
+
+</table>
+
+<h3>Pop-up Boxes</h3>
+
+<ul>
+<li>Windows that appear before a page loads, events, or page exits.</li>
+<li>Serve as warnings, prompts, or confirmation boxes.</li>
+</ul>
+
+</div>
+
+
+<div class="lesson">
+
+<h2>LESSON 2: CONDITIONS, CONTROLS, LOOPS</h2>
+
+<ul>
+<li>Conditional Statements perform different actions for different decisions.</li>
+</ul>
+
+<h3>IF Statement</h3>
+
+<ul>
+<li>Used to check or verify a condition.</li>
+<li>Executes statements only if the condition is true.</li>
+</ul>
+
+<h3>Nested IF Statement</h3>
+
+<ul>
+<li>"If statement" with another "If statement"</li>
+<li>Used when the child condition is checked only if the parent condition is true</li>
+</ul>
+
+<h3>IF-ELSE Statement</h3>
+
+<ul>
+<li>Adds an alternative instruction if the condition is not true.</li>
+</ul>
+
+<h3>IF ELSE IF Statement</h3>
+
+<ul>
+<li>Evaluates multiple conditions.</li>
+<li>Executes different blocks depending on which condition is true.</li>
+</ul>
+
+<h3>Switch Statement</h3>
+
+<ul>
+<li>Used when a condition has multiple results.</li>
+<li>A different set of operations is executed depending on the result.</li>
+</ul>
+
+</div>
+
+
+<div class="lesson">
+
+<h2>LESSON 3: FUNCTIONS</h2>
+
+<ul>
+<li>A function is a self-contained piece of code that performs a specific task.</li>
+<li>Also called a method.</li>
+<li>Used so you do not have to retype your code again.</li>
+<li>Can be called anywhere in the page or from an external JavaScript file.</li>
+<li>Usually placed in the head section to ensure it loads properly.</li>
+<li>Defined using the keyword function.</li>
+</ul>
+
+<h3>Return Statement</h3>
+
+<ul>
+<li>Used when a function needs to return a value.</li>
+<li>Allows the output of a function to be used elsewhere.</li>
+</ul>
+
+</div>
+
+
+<div class="lesson">
+
+<h2>LESSON 4: LOOPS</h2>
+
+<ul>
+<li>A repetitive cycle of code until a condition is met.</li>
+</ul>
+
+<h3>Types of Loops</h3>
+
+<ul>
+<li><b>For Loop</b> – repeats code a specific number of times.</li>
+<li><b>While Loop</b> – repeats while the condition remains true.</li>
+<li><b>Do-While Loop</b> – runs the code once before checking the condition.</li>
+<li><b>For-In Loop</b> – loops through elements of an array or object.</li>
+</ul>
+
+<h3>Break Statement</h3>
+
+<ul>
+<li>Stops the loop when the specified condition becomes true.</li>
+</ul>
+
+<h3>Continue Statement</h3>
+
+<ul>
+<li>Skips a value but continues the loop.</li>
+</ul>
+
+</div>
+
+
+<div class="lesson">
+
+<h2>LESSON 5: STRINGS AND ARRAY OBJECTS, DATE, TIME AND MATH OBJECTS</h2>
+
+<h3>String</h3>
+
+<ul>
+<li>A string is an object with its own properties and methods.</li>
+<li>Used to manipulate text.</li>
+</ul>
+
+<code>
+var text="This is a new house.";
+document.write(text.length);
+</code>
+
+<h3>Array</h3>
+
+<ul>
+<li>A special variable that can store multiple values.</li>
+<li>Each value has an index.</li>
+</ul>
+
+<code>
+var varname=new Array("a","b","c");
+</code>
+
+<h3>Date Object</h3>
+
+<ul>
+<li>Used to manipulate and access the current date and time.</li>
+<li>Created using the keyword new.</li>
+</ul>
+
+<h3>Math Object</h3>
+
+<ul>
+<li>Allows mathematical calculations.</li>
+<li>Includes predefined methods and constants.</li>
+</ul>
+
+</div>
+
+
+<div class="lesson">
+
+<h2>LESSON 6: TIMING & MATH OBJECT</h2>
+
+<h3>setTimeout()</h3>
+
+<ul>
+<li>Executes code after a specific time.</li>
+</ul>
+
+<code>
+var t=setTimeout("Javascript statement", milliseconds);
+</code>
+
+<h3>clearTimeout()</h3>
+
+<ul>
+<li>Cancels the setTimeout() function.</li>
+</ul>
+
+</div>
+
+
+<script>
+
+window.onload = function(){
+
+alert("Welcome to the 4th Quarter JavaScript Lesson Compilation!");
+
+}
+
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>AP Collaboration</title>
+
+<style>
+
+body{
+font-family: Arial;
+background:black;
+color:white;
+margin:0;
+padding:0;
+}
+
+header{
+background:#8B0000;
+text-align:center;
+padding:30px;
+box-shadow:0 0 25px red;
+}
+
+header h1{
+text-shadow:0 0 10px red;
+}
+
+.music-player button{
+background:black;
+color:white;
+border:none;
+padding:10px 15px;
+margin:5px;
+border-radius:8px;
+cursor:pointer;
+box-shadow:0 0 10px red;
+transition:0.3s;
+}
+
+.music-player button:hover{
+background:red;
+transform:scale(1.1);
+}
+
+.lesson{
+background:#111;
+margin:40px;
+padding:25px;
+border-radius:12px;
+box-shadow:0 0 20px red;
+transition:0.4s;
+}
+
+.lesson:hover{
+transform:scale(1.02);
+box-shadow:0 0 35px red;
+}
+
+h2{
+color:#ff4d4d;
+}
+
+ul{
+line-height:1.7;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<marquee scrollamount="10">
+AP COLLABORATION 
+</marquee>
+
+<h1>Araling Panlipunan Lesson Compilation</h1>
+
+<div class="music-player">
+
+<iframe width="425" height="250"
+src="https://youtu.be/7UoONw5ABpE?si=0UCg2FPUTl5Aj1x5"
+title="Liberian Girl"
+frameborder="0"
+allowfullscreen>
+</iframe>
+
+</div>
+
+</header>
+
+<div class="lesson">
+
+<h2>1. PAMBANSANG KAUNLARAN</h2>
+
+<h3>Kahulugan</h3>
+<ul>
+<li>Kalagayan ng isang bansa kung saan umaangat ang ekonomiya at pamumuhay ng mamamayan, lalo na ang mahihirap.</li>
+</ul>
+
+<h3>Mga Konsepto ng Pambansang Kaunlaran</h3>
+
+<ul>
+<li><b>Pagbabago</b> – Proseso ng pagiging iba o pagkakaroon ng kaibahan sa lipunan at ekonomiya.</li>
+<li><b>Pag-unlad</b> – Pag-angat mula sa mababang antas tungo sa mas mataas na pamumuhay.</li>
+<li>Ayon kay Fajardo, ito ay progresibong proseso.</li>
+<li>Ayon kay Amartya Sen, ang kaunlaran ay nakabatay sa pag-unlad ng buhay ng tao, hindi lamang sa ekonomiya.</li>
+<li><b>Pagsulong</b> – Pag-usad patungo sa layunin sa pamamagitan ng paglinang ng kakayahan at kaalaman.</li>
+<li><b>Ebolusyon</b> – Unti-unting pagbabago sa mahabang panahon.</li>
+</ul>
+
+<h3>Dalawang Konsepto ng Pag-unlad</h3>
+
+<ul>
+<li><b>Tradisyunal</b> – Pagtaas ng income per capita.</li>
+<li><b>Makabago</b> – Malawakang pagbabago sa sistemang panlipunan at kalidad ng buhay.</li>
+</ul>
+
+<h3>Mga Salik ng Pag-unlad</h3>
+
+<ul>
+<li>Likas na yaman</li>
+<li>Yamang-tao</li>
+<li>Kapital</li>
+<li>Teknolohiya at Inobasyon</li>
+</ul>
+
+<h3>Mga Palatandaan ng Pag-unlad</h3>
+
+<ul>
+<li>Maayos na sistemang panlipunan</li>
+<li>Kasaganaan at kasarinlan</li>
+<li>Trabaho para sa lahat</li>
+<li>Sapat na serbisyong panlipunan</li>
+<li>Katarungang panlipunan</li>
+</ul>
+
+<h3>Sukatan ng Kaunlaran</h3>
+
+<ul>
+<li><b>Human Development Index (HDI)</b> – Sukatan batay sa kalusugan, edukasyon, at antas ng pamumuhay.</li>
+</ul>
+
+<h3>Antas ng Kaunlaran ng Bansa</h3>
+
+<ul>
+<li>Developed Economies – mataas ang GDP, income per capita, at HDI.</li>
+<li>Developing Economies – may umuunlad na industriya ngunit hindi pa ganap.</li>
+<li>Underdeveloped Economies – mababa ang industriyalisasyon at ekonomiya.</li>
+</ul>
+
+<h3>Tungkulin ng Mamamayan</h3>
+
+<ul>
+<li>Sumunod sa batas</li>
+<li>Suportahan ang pamahalaan</li>
+<li>Pangalagaan ang kapaligiran</li>
+<li>Labanan ang korapsyon</li>
+<li>Maging produktibo</li>
+<li>Tangkilik ang produktong Pilipino</li>
+<li>Makilahok sa gawaing pansibiko</li>
+</ul>
+
+</div>
+
+<div class="lesson">
+
+<h2>2. KALAGAYAN NG AGRIKULTURA SA PILIPINAS</h2>
+
+<h3>Kahulugan ng Agrikultura</h3>
+
+<ul>
+<li>Agham at sining ng pagtatanim ng halaman at pag-aalaga ng hayop.</li>
+</ul>
+
+<h3>Mga Gawain sa Agrikultura</h3>
+
+<ul>
+<li>Pagsasaka</li>
+<li>Pangingisda</li>
+<li>Paghahayupan</li>
+<li>Paggugubat</li>
+</ul>
+
+<h3>Kahalagahan ng Agrikultura</h3>
+
+<ul>
+<li>Pinagmumulan ng pagkain</li>
+<li>Nagbibigay ng trabaho</li>
+<li>Pinanggagalingan ng hilaw na materyales</li>
+<li>Nagpapasok ng kita sa bansa</li>
+</ul>
+
+<h3>Suliranin ng Agrikultura</h3>
+
+<ul>
+<li>Pagliit ng lupang sakahan</li>
+<li>Kakulangan sa teknolohiya at imprastraktura</li>
+<li>Polusyon at climate change</li>
+<li>Pagkaubos ng likas na yaman</li>
+</ul>
+
+<h3>Mga Batas at Programa sa Agrikultura</h3>
+
+<ul>
+<li>Batas Republika Blg. 1160 – Nagtatag sa National Resettlement and Rehabilitation Administration (NARRA).</li>
+<li>Batas Republika Blg. 1190 (1954) – Nagbigay proteksyon laban sa mapang-abusong may-ari ng lupa at laban sa Absentee Landlord.</li>
+<li>Agricultural Land Reform Code of 1963 – Nilagdaan ni Diosdado Macapagal upang palayain ang mga magsasaka mula sa utang at kahirapan.</li>
+<li>Presidential Decree No. 2 (1972) – Isinailalim sa reporma sa lupa ang buong Pilipinas.</li>
+<li>Presidential Decree No. 27 – Binili ng pamahalaan ang mga lupang sakahan na lampas sa 7 ektarya at ipinamamahagi sa mga magsasakang walang lupa.</li>
+<li>Republic Act 6657 (1988) – Comprehensive Agrarian Reform Law (CARL).</li>
+</ul>
+
+<h3>Mga Ahensiya ng Agrikultura</h3>
+
+<ul>
+<li>Department of Agriculture (DA)</li>
+<li>BFAR</li>
+<li>BAI</li>
+</ul>
+
+</div>
+
+<div class="lesson">
+
+<h2>3. SEKTOR NG INDUSTRIYA</h2>
+
+<ul>
+<li><b>Kahulugan</b> – Pagproseso ng hilaw na materyales upang makagawa ng produkto.</li>
+</ul>
+
+<h3>Mga Sub-sektor</h3>
+
+<ul>
+<li>Pagmimina</li>
+<li>Pagmamanupaktura</li>
+<li>Konstruksyon</li>
+<li>Utilities</li>
+</ul>
+
+<h3>Kahalagahan</h3>
+
+<ul>
+<li>Lumilikha ng trabaho</li>
+<li>Gumagamit ng makabagong teknolohiya</li>
+<li>Nagpapasok ng kita sa bansa</li>
+</ul>
+
+<h3>Suliranin</h3>
+
+<ul>
+<li>Kakulangan sa pondo</li>
+<li>Kompetisyon sa dayuhang produkto</li>
+<li>Paghina ng lokal na industriya</li>
+</ul>
+
+<h3>Mga Patakarang Pang-ekonomiya</h3>
+
+<ul>
+<li>Filipino First Policy – Programang inilunsad ni Carlos P. Garcia.</li>
+<li>Oil Deregulation Law (R.A. 8479)</li>
+<li>Retail Nationalization Act (R.A. 1180)</li>
+<li>Retail Trade Liberalization Act (R.A. 8762)</li>
+<li>Build-Operate-Transfer Law (R.A. 6957)</li>
+</ul>
+
+<h3>Mga Ahensiya</h3>
+
+<ul>
+<li>Department of Trade and Industry (DTI)</li>
+<li>Board of Investments (BOI)</li>
+<li>Philippine Economic Zone Authority (PEZA)</li>
+<li>Securities and Exchange Commission (SEC)</li>
+</ul>
+
+</div>
+
+<div class="lesson">
+
+<h2>4. SEKTOR NG PAGLILINGKOD</h2>
+
+<ul>
+<li><b>Kahulugan</b> – Sektor na nagbibigay ng serbisyo sa produksyon, distribusyon, at kalakalan.</li>
+</ul>
+
+<h3>Mga Halimbawa</h3>
+
+<ul>
+<li>Transportasyon at komunikasyon</li>
+<li>Kalakalan</li>
+<li>Pananalapi</li>
+<li>Real estate</li>
+<li>Serbisyong pampubliko at pribado</li>
+</ul>
+
+<h3>Mga Ahensiya</h3>
+
+<ul>
+<li>DOLE</li>
+<li>OWWA</li>
+<li>TESDA</li>
+<li>PRC</li>
+<li>CHED</li>
+</ul>
+
+<h3>Mga Batas sa Karapatan ng Manggagawa</h3>
+
+<ul>
+<li>Article 94 – Holiday Pay</li>
+<li>Republic Act 6727 – Wage Rationalization Act</li>
+<li>Article 87 – Overtime Pay</li>
+<li>Article 86 – Night Shift Differential</li>
+<li>Presidential Decree 851 – Thirteenth Month Pay</li>
+<li>Republic Act 1161 – Maternity Leave</li>
+</ul>
+
+<h3>Impormal na Sektor</h3>
+
+<ul>
+<li>Street vendors</li>
+<li>Pedicab drivers</li>
+<li>Maliit na negosyo</li>
+</ul>
+
+</div>
+
+<div class="lesson">
+
+<h2>5. PANDAIGDIGANG KAUNLARAN</h2>
+
+<h3>Kalakalang Panlabas</h3>
+
+<ul>
+<li>Palitan ng produkto at serbisyo sa pagitan ng mga bansa.</li>
+<li>Export – pagluluwas ng produkto.</li>
+<li>Import – pag-aangkat ng produkto.</li>
+</ul>
+
+<h3>Mga Patakaran sa Kalakalan</h3>
+
+<ul>
+<li>Taripa (Tariff)</li>
+<li>Quota</li>
+<li>Subsidy</li>
+</ul>
+
+<h3>Balance of Trade</h3>
+
+<ul>
+<li>Trade Surplus – mas mataas ang export kaysa import.</li>
+<li>Trade Deficit – mas mataas ang import kaysa export.</li>
+</ul>
+
+<h3>Mga Organisasyong Pandaigdigan</h3>
+
+<ul>
+<li>World Trade Organization (WTO)</li>
+<li>Asia-Pacific Economic Cooperation (APEC)</li>
+<li>Association of Southeast Asian Nations (ASEAN)</li>
+</ul>
+
+</div>
+
+
+</body>
+</html>

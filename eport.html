@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Final PT in ICT</title>
+
+<script type="text/javascript">
+
+function welcome(){
+alert("Welcome to my ICT Portfolio!");
+}
+
+function enterSite(){
+var name = prompt("Enter your name:", "Guest");
+
+if(name != null && name != ""){
+alert("Welcome " + name + "! Enjoy exploring my portfolio!");
+}
+}
+
+</script>
+
+<style>
+
+body{
+margin:0;
+font-family:Verdana;
+color:white;
+text-align:center;
+background:black;
+}
+
+.floor{
+display:grid;
+grid-template-columns:repeat(20,1fr);
+position:fixed;
+width:100%;
+height:100%;
+top:0;
+left:0;
+z-index:-1;
+}
+
+.tile{
+border:1px solid #111;
+height:50px;
+transition:0.3s;
+}
+
+.tile:hover{
+background:white;
+box-shadow:0 0 20px white;
+}
+
+header{
+padding:40px;
+background:linear-gradient(black,gold,black);
+}
+
+h1{
+font-size:50px;
+color:gold;
+text-shadow:0 0 20px gold;
+animation:glow 2s infinite alternate;
+}
+
+@keyframes glow{
+from{ text-shadow:0 0 10px gold;}
+to{ text-shadow:0 0 35px white;}
+}
+
+img{
+margin-top:20px;
+border-radius:12px;
+box-shadow:0 0 25px gold;
+}
+
+button{
+margin-top:20px;
+padding:12px 25px;
+font-size:18px;
+background:gold;
+border:none;
+border-radius:10px;
+cursor:pointer;
+box-shadow:0 0 15px gold;
+}
+
+.menu{
+margin-top:40px;
+}
+
+.menu a{
+display:block;
+width:430px;
+margin:18px auto;
+padding:18px;
+text-decoration:none;
+color:black;
+background:gold;
+font-size:20px;
+font-weight:bold;
+border-radius:14px;
+transition:0.4s;
+box-shadow:0 0 15px gold;
+}
+
+.menu a:hover{
+background:white;
+transform:translateX(35px) scale(1.12);
+box-shadow:0 0 35px white;
+}
+
+footer{
+margin-top:40px;
+padding:20px;
+color:lightgray;
+}
+
+</style>
+</head>
+
+<body onload="welcome()">
+
+<div class="floor">
+
+<script>
+
+for(let i=0;i<400;i++){
+document.write('<div class="tile"></div>');
+}
+
+</script>
+
+</div>
+
+<header>
+<h1>👑 E-Portfolio 👑</h1>
+</header>
+
+<img src="mj.jpg" width="260">
+
+<br>
+
+<button onclick="enterSite()">Enter Portfolio</button>
+
+<div class="menu">
+
+<a href="E-PORTFOLIO.html">1st and 2nd Quarter Outputs</a>
+
+<a href="browseroutputs.html">3rd Quarter Browser Outputs</a>
+
+<a href="q3events.html">3rd Quarter Events</a>
+
+<a href="apcollab.html">AP Collaboration</a>
+
+<a href="noli.html">Noli Me Tangere Drama Video</a>
+
+<a href="q4lessons.html">4th Quarter Lesson Compilation</a>
+
+<a href="q4events.html">4th Quarter Events</a>
+
+</div>
+
+</body>
+</html>
