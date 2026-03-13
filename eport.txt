@@ -145,7 +145,7 @@ document.write('<div class="tile"></div>');
 
 <div class="menu">
 
-<a href="E-PORTFOLIO.html">1st and 2nd Quarter Outputs</a>
+<a href="https://ilovescaramouche.github.io/masinas2/shania/MAIN%20PAGE/E-PORTFOLIO.html">1st and 2nd Quarter Outputs</a>
 
 <a href="browseroutputs.html">3rd Quarter Browser Outputs</a>
 
