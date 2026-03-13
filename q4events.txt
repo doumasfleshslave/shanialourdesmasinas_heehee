@@ -70,7 +70,7 @@ box-shadow:0 0 25px #00e5ff;
 
 <header>
 
-<h1>4th Quarter Events</h1>
+<h1>4th Quarter Events - Credits to: Jade Isabelle S. Imperial</h1>
 
 
 <a href="https://youtu.be/ElN_4vUvTPs" target="_blank">
@@ -123,3 +123,4 @@ box-shadow:0 0 25px #00e5ff;
 
 </body>
 </html>
+
