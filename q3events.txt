@@ -85,6 +85,10 @@ box-shadow:0 0 25px #00e5ff;
 
 <h2>MVP</h2>
 
+<p> 
+VPOP was one of the most exciting events during the quarter because we were able to show our creativity and teamwork.  Preparing for it took a lot of practice and cooperation from everyone in the group.  Even though it was tiring at times, it was still fun and memorable for us.  The experience helped us become more confident and closer as a class. 
+</p>
+
 <div class="gallery">
 
 <img src="mvp1.jpg">
@@ -99,6 +103,10 @@ box-shadow:0 0 25px #00e5ff;
 
 <h2>Booklandia</h2>
 
+<p> 
+Booklandia was a fun event where students were able to represent different characters from books. It made reading more interesting because we could see the characters come to life. Many students showed creativity through their costumes and presentations. The event reminded us that reading can also be enjoyable and inspiring.
+</p>
+
 <div class="gallery">
 
 <img src="booklandia1.jpg">
@@ -112,6 +120,10 @@ box-shadow:0 0 25px #00e5ff;
 <div class="event">
 
 <h2>Math Idol</h2>
+
+<p> 
+Math Idol was both challenging and exciting because it tested our knowledge in mathematics. Watching the participants answer questions quickly was very impressive. The event showed that math can shockingly be fun and competitive. It encouraged many of us to study harder and improve our problem-solving skills.
+</p>
 
 <div class="gallery">
 
